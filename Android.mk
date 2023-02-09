@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter RMX3363 RMX3360 lunaa,$(TARGET_DEVICE)),)
+ifneq ($(filter RMX3363 RMX3360 RMX3312 lunaa porsche,$(TARGET_DEVICE)),)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
 include $(CLEAR_VARS)
